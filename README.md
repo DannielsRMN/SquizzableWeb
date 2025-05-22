@@ -2,6 +2,18 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.11.
 
+# 🚀 Presentación de Desarrollo Web - Equipo **TomCat**
+
+Este repositorio fue creado para la presentación de avances del curso **Desarrollo Web**. Aquí encontrarás documentación, código fuente y recursos relacionados con nuestro proyecto.
+
+## 👥 Integrantes del equipo:
+
+- 👤 **Martel Neira Danniels Rafael**
+- 👤 **Caldas Sifuentes Raul**
+- 👤 **Lopez Castillo Jean Andres**
+- 👤 **Dionicio Orihuela Edson**
+- 👤 **Palacios Presentación Jeferson**
+
 ## Development server
 
 To start a local development server, run:
