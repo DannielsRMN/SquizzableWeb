@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100%;
+  /*Si no se puede desplazar eliminar los siguiente*/
+  overflow: hidden;
+
+  font-family: 'JetBrains Mono', monospace;
+
+  background-image: url('/Background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}

@@ -1,15 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
+<div class="body">
+  <div class="part1">
+    <div class="Logo">
+      <div class="Icon">
+        <img src="/Logo.png" alt="Logo" height="25px" width="25px">
+      </div>
+      <h2>Squizzable</h2>
+    </div>
+    <div class="Botones">
+      <div class="B-Redirec">
+        <button (click)="redireccionar('/modulos')">Módulos</button>
+        <button>Progreso</button>
+        <button>Ranking</button>
+        <button>Cuenta</button>
+      </div>
+      <div class="B-Salir">
+        <button>Cerrar Sesión</button>
+      </div>
+    </div>
+  </div>
+  <div class="content">
+    <router-outlet />
+  </div>
+</div>
 
-
-
-</body>
-</html>
-
-<router-outlet />
