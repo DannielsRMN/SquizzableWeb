@@ -1,25 +1,54 @@
 <div class="body">
-  <div class="part1">
-    <div class="Logo">
-      <div class="Icon">
-        <img src="/Logo.png" alt="Logo" height="25px" width="25px">
-      </div>
-      <h2>Squizzable</h2>
-    </div>
-    <div class="Botones">
-      <div class="B-Redirec">
-        <button (click)="redireccionar('/modulos')">Módulos</button>
-        <button>Progreso</button>
-        <button>Ranking</button>
-        <button>Cuenta</button>
-      </div>
-      <div class="B-Salir">
-        <button>Cerrar Sesión</button>
+
+  <div class="menu">
+
+    <div class="space-logo">
+      <div class="logo-container">
+        <img src="/LogoWhite.png" height="40px" class="logo-icon">
+        <a routerLink="/"> <h2  class="logo-text">Squizzable</h2> </a>
       </div>
     </div>
+
+    <div class="space-botones">
+      <div class="boton-container">
+        <button (click)="redireccionar('/modulos')">
+          <img src="/Modulo.png" height="30px" class="boton-icon">
+          <h2 class="boton-text">Módulos</h2>
+        </button>
+      </div>
+      <div class="boton-container">
+        <button>
+          <img src="/Progreso.png" height="30px" class="boton-icon">
+          <h2 class="boton-text">Progreso</h2>
+        </button>
+      </div>
+      <div class="boton-container">
+        <button>
+          <img src="/Ranking.png" height="30px" class="boton-icon">
+          <h2 class="boton-text">Ranking</h2>
+        </button>
+      </div>
+      <div class="boton-container">
+        <button>
+          <img src="/Cuenta.png" height="30px" class="boton-icon">
+          <h2 class="boton-text">Cuenta</h2>
+        </button>
+      </div>
+    </div>
+
+    <div class="space-exit">
+      <div class="boton-container">
+        <button>
+          <img src="/Salir.png" height="30px" class="boton-icon">
+          <h2 class="boton-text">Salir</h2>
+        </button>
+      </div>
+    </div>
+
   </div>
+
   <div class="content">
     <router-outlet />
   </div>
-</div>
 
+</div>
