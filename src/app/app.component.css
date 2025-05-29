@@ -1,0 +1,102 @@
+
+@import "primeicons/primeicons.css";
+
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "JetBrains Mono", monospace;
+  background-color: #f7f7f7;
+}
+
+.layout {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+.barra_lateral {
+  width: 60px;
+  border-radius: 50px;
+  transition: width 0.3s ease;
+  background-color: #292953;
+  color: #ffffff;
+  padding: 18px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.barra_lateral:hover {
+  width: 200px;
+}
+
+.logo {
+  font-size: 24px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #f39c12;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo .texto {
+  margin-left: 10px;
+  display: none;
+}
+
+.barra_lateral:hover .logo .texto {
+  display: inline;
+}
+
+.botones {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.botones-sup,
+.boton-inf {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.barra_lateral button {
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  padding: 12px;
+  text-align: left;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.barra_lateral button .texto {
+  display: none;
+}
+
+.barra_lateral:hover button .texto {
+  display: inline;
+}
+
+.barra_lateral button:hover {
+  background-color: #f39c12;
+}
+
+.contenido {
+  flex-grow: 1;
+  overflow-y: auto;
+  padding: 20px;
+}

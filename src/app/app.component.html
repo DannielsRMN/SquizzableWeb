@@ -1,15 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
+<!-- src/app/app.component.html -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
+<div class="layout">
+  <div class="barra_lateral">
+    <h2 class="logo"><i class="pi pi-prime"></i><span class="texto"> Squizzable</span></h2>
+    <div class="botones">
+      <div class="botones-sup">
+        <button type="button"><i class="pi pi-home"></i><span class="texto"> Bienvenido</span></button>
+        <button type="button"><i class="pi pi-book"></i><span class="texto"> Módulos</span></button>
+        <button type="button"><i class="pi pi-chart-line"></i><span class="texto"> Progreso</span></button>
+        <button type="button"><i class="pi pi-trophy"></i><span class="texto"> Ranking</span></button>
+        <button type="button"><i class="pi pi-user"></i><span class="texto"> Cuenta</span></button>
+      </div>
+      <div class="boton-inf">
+        <button type="button"><i class="pi pi-sign-out"></i><span class="texto"> Salir</span></button>
+      </div>
+    </div>
+  </div>
 
-
-</body>
-</html>
-
-<router-outlet />
+  <div class="contenido">
+    <router-outlet></router-outlet>
+  </div>
+</div>
