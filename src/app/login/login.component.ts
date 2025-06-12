@@ -15,6 +15,7 @@ export class LoginComponent {
 
   username: string = '';
   password: string = '';
+  error = '';
 
   rememberMe: boolean = false;
 
