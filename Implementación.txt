@@ -1,0 +1,9 @@
+Para poder realizar la implementación debemos ingresar hasta encontrarnos en el directorio donde ejecutamos el "ng serve", en otras palabras en el mismo directorio donde encontramos el angular.json.
+
+En dicho directorio vamos a abrir la consola y vamos a ejecutar el comando:
+    + npm install
+
+Con esto deberíamos tener todo listo, esto es una prueba muy inicial, pero que tendremos que ir viendo como se comporta en otros dispositivos.
+
+# Mejoras en el Frontend
+    - Cambiar el termino "Token" para evitar que se sobreponga otros token de otros proyectos.
